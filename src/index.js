@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import EffectTutorial from './HooksTuto/EffectTutorial';
+import RefTutorial from './HooksTuto/useRefTutorial';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <EffectTutorial />
+    <RefTutorial />
   </React.StrictMode>
 );
 
